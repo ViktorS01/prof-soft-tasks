@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'Gilroy Medium';
+    src: url('./fonts/Gilroy-Medium.eot');
+    src: url('./fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gilroy-Medium.woff') format('woff'),
+    url('./fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('./fonts/Gilroy-Bold.eot');
+    src: url('./fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Gilroy-Bold.woff') format('woff'),
+    url('./fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.body{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    color: #070707;
+    letter-spacing: 1px; 
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    width: 940px;
+    margin: auto;
+    padding-top: 8px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 33px;
+}
+
+.navigation-link{
+    font-family: 'Gilroy Bold';
+    line-height: 22px;
+
+    color: #828282;
+}
+
+.home-link{
+    color: #070707;
+}
+
+.white-container{
+    width: 940px;
+    margin: auto;
+}
+
+.block-main-info{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: flex-end;
+
+    margin-top: 30px;
+}
+
+.name{
+    font-family: 'Gilroy-Bold';
+
+    font-size: 47.3392px;
+    line-height: 59px;
+
+    color: #070707;
+
+    margin: 0;
+}
+
+.language{
+    writing-mode: tb-rl;
+    transform:rotate(180deg);
+    font-family: 'Gilroy-Bold';
+    font-weight: 1000;
+
+    margin-bottom: 10px;
+}
+
+.RU-text{
+    color: #828282; 
+}
+
+.info{
+    line-height: 22px;
+    font-size: 19px;
+    font-weight: 300;
+
+    color: #070707;
+
+    width: 190px;
+    margin-bottom: 10px;
+}
+
+.container__main-photo{
+    width: 940px;
+    height: 387px;
+
+    overflow: hidden;
+
+    margin-top: 40px;
+}
+
+.main-photo{
+    width: 100%;
+    margin-top: -450px;
+}
+
+.container-grey-blocks{
+    background-color: #F6F6F6;
+    text-align: center;
+}
+
+.about-me-text{
+    /* width: 485px; */
+
+    margin: 0 auto;
+    padding-bottom: 45px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.about-me__last-p{
+    padding-bottom: 110px;
+}
+.about-me-title{
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    color: #070707;
+    letter-spacing: 1px;
+
+    margin-top: 220px;
+}
+
+.block-skills{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.block-skills__title{
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    color: #070707;
+    letter-spacing: 1px;
+
+    padding-bottom: 25px;
+}
+
+.block-skills__info{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    color: #070707;
+    letter-spacing: 1px;
+}
+
+.block-programms, .raiting{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-programms{
+    margin-top: 90px;
+}
+
+.block-programms__programm{
+    width: 166px;
+    height: 206px;
+}
+
+.programm-title{
+    width: 77px;
+    height: 70px;
+
+    margin: 0 auto;
+
+    color: #828282;
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+
+    padding-top: 20px;
+}
+
+.block-shop-links{
+    margin-top: 110px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.block-shop-links__title{
+    padding-top: 80px;
+    padding-bottom: 30px;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    color: #070707;
+    letter-spacing: 1px;
+}
+
+.block-shop-links__link{
+    margin: 0 auto;
+
+    color: #070707;
+    text-decoration: underline;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    letter-spacing: 1px;
+
+    padding: 40px;
+    padding-bottom: 105px;
+}
+
+.block-shop-links__img{
+    width: 937px;
+
+    margin: 0 auto;
+}
+
+.footer{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.footer__contacts-title{
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    color: #070707;
+    letter-spacing: 1px;
+
+    margin-top: 105px;
+}
+
+.footer__contacts-info{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #070707;
+
+    width: 275px;
+    margin: 0 auto;
+
+    margin-bottom: 30px;
+}
+
+.button__send-message{
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #070707;
+    color: #FFFFFF;
+
+    border-radius: 25px;
+    padding: 10px 32px;
+}
+
+.navigation-footer{
+    display: flex;
+    justify-content: space-around;
+
+    width: 400px;
+    margin: 0px auto;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
